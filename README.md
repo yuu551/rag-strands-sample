@@ -164,7 +164,7 @@ pip install -r requirements.txt
 2. AgentCore の設定
 IAMロールは自分で作成したロールを指定しましょう。
 ```bash
-agentcore configure
+agentcore configure --entrypoint agent.py
 ```
 
 3. デプロイ
