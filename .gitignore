@@ -1,0 +1,22 @@
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# AWS
+.aws/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
