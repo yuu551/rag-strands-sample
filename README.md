@@ -172,7 +172,7 @@ IAMロールは自分で作成したロールを指定しましょう。
 agentcore configure
 ```
 
-1. デプロイ
+4. デプロイ
 ```bash
 agentcore launch
 ```
