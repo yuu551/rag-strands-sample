@@ -167,11 +167,12 @@ export STRANDS_KNOWLEDGE_BASE_ID="your-knowledge-base-id"
 ```
 
 3. AgentCore の設定
+IAMロールは自分で作成したロールを指定しましょう。
 ```bash
 agentcore configure
 ```
 
-4. デプロイ
+1. デプロイ
 ```bash
 agentcore launch
 ```
