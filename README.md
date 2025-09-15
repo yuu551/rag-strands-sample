@@ -161,20 +161,16 @@ AgentCoreエージェント用のIAMロールに以下のポリシーが必要�
 pip install -r requirements.txt
 ```
 
-2. 環境変数の設定
-```bash
-export STRANDS_KNOWLEDGE_BASE_ID="your-knowledge-base-id"
-```
-
-3. AgentCore の設定
+2. AgentCore の設定
 IAMロールは自分で作成したロールを指定しましょう。
 ```bash
 agentcore configure
 ```
 
-4. デプロイ
+3. デプロイ
+Knowledge Base IDを環境変数として指定してデプロイします。
 ```bash
-agentcore launch
+agentcore launch --env STRANDS_KNOWLEDGE_BASE_ID=your-knowledge-base-id
 ```
 
 ## 使い方

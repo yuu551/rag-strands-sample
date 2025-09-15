@@ -82,7 +82,7 @@ SYSTEM_PROMPT = """
 - 専門用語を使用する際は、可能な限り分かりやすい説明を併記してください
 """
 
-STRANDS_KNOWLEDGE_BASE_ID = os.environ.get("STRANDS_KNOWLEDGE_BASE_ID", "H02NOUUI64")
+STRANDS_KNOWLEDGE_BASE_ID = os.environ.get("STRANDS_KNOWLEDGE_BASE_ID", "")
 
 # =========================
 # Bedrock KB ツール用セットアップ
